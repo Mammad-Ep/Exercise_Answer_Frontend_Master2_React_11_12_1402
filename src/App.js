@@ -1,29 +1,10 @@
 import React, { Component } from 'react';
-// import Foods from './components/Foods';
 import { Routes, Route, Navigate, Link } from 'react-router-dom';
 import '../src/css/main_style2.scss';
 import Slider from './components/Slider';
 import AboutUs from './components/AboutUs';
 import Movies from './components/Movies';
 // __________________________________________________________________________________
-
-// class App extends Component {
-//     constructor(props) {
-//         super(props);
-//     }
-//     state = {}
-//     render() {
-//         return (
-//             <>
-//                 {/* Exersice1 */}
-//                 <Foods />
-//             </>
-//         );
-//     }
-// }
-// export default App;
-
-// ---------------------------------------------------------------------------
 
 class App extends Component {
 
